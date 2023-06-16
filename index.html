@@ -4,9 +4,27 @@
     <style>
         body {background-color: lightgray;}
         h1   {color: black;font-family: courier;}
+        h2   {color: black;font-family: courier;}
         h3   {color: black;font-family: courier;}
         p    {color: black;font-family: courier;}
         nav   {color: black;font-family: courier;}
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+
     </style>
   <meta charset="UTF-8">
     <link rel="icon" type="image/vnd.icon" href="favicon.ico">
@@ -42,14 +60,38 @@
      <blockquote cite="https://es.wikipedia.org/wiki/Autom%C3%B3vil">
          El automóvil, también denominado auto, coche o carro en algunos países de Hispanoamérica; es un vehículo motorizado con ruedas utilizado para el transporte. La mayoría de las definiciones de automóvil, hacen referencia a los vehículos que circulan principalmente por las carreteras, con capacidad de uno a ocho personas, cuentan con cuatro neumáticos y transportan principalmente a personas, antes que mercancías..
          <br>
+         <br>
          <img src="img/autoviejo.jpg" alt="autoviejo" width="400" height="321">
      </blockquote>
+    <br>
+     <section>
+         <h2>Tabla de Marcas</h2>
 
-  <br>
+         <table>
+             <tr>
+                 <th>Marca</th>
+                 <th>País</th>
+                 <th>Página Web</th>
+             </tr>
+             <tr>
+                 <td><a href="mazda.html">Mazda</a></td>
+                 <td>Japon</td>
+                 <td><a href="https://www.mazda.com/">https://www.mazda.com/</a></td>
+             </tr>
+             <tr>
+                 <td><a href="toyota.html">Toyota</a></td>
+                 <td>Japon</td>
+                 <td><a href="https://global.toyota/en/">https://global.toyota/en/</a></td>
+             </tr>
+
+         </table>
+     </section>
+
+
+     <br>
      <a href="index.html"><img src="img/homecar.jpg" alt="Volver al inicio" style="width:42px;height:42px;" title="Volver al Inicio"></a>
  </article>
 </section>
-
 
 
 
