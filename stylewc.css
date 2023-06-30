@@ -1,0 +1,25 @@
+
+body {background-color: lightgray;}
+h1   {color: black;font-family: courier;}
+h2   {color: black;font-family: courier;}
+h3   {color: black;font-family: courier;}
+p    {color: black;font-family: courier;}
+nav   {color: black;font-family: courier;}
+table{
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
