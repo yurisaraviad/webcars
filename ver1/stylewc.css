@@ -1,0 +1,89 @@
+/*style de web cars*/
+body {
+    /*background-color: lightgray;*/
+    background-image: url("/img/background.jpg");
+    /*background-repeat: repeat-x;
+    background-repeat: repeat-y;*/
+    background-attachment: fixed;
+    /*background-position: right top;*/
+
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
+h1   {
+    color: black;
+    font-family: courier;
+}
+#title1 {
+    text-align: left;
+    color: black;
+    font-family: courier;
+    font-size: 50px;
+}
+
+#title2 {
+    text-align: left;
+    color: black;
+    font-family: courier;
+    font-size: 25px;
+}
+
+h2,h3   {
+    color: black;
+    font-family: courier;
+}
+
+p    {
+    text-align: left;
+    color: black;
+    font-family: courier;
+}
+p.center {
+    text-align: center;
+    color: black;
+}
+p.large {
+    /*border: 2px solid darkgreen;*/
+    font-size: 200%;
+}
+#author {
+    text-align: left;
+    color: black;
+    font-family: courier;
+    font-size: 90%;
+}
+#mail {
+    text-align: left;
+    color: black;
+    font-family: courier;
+    font-size: 80%;
+}
+
+nav   {
+    color: black;
+    font-family: courier;
+    font-size: 110%;
+}
+table{
+    border: 1px solid black;
+    font-family: arial, sans-serif;
+    width: 60%;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 40%;*/
+}
+

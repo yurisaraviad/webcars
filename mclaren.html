@@ -1,15 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <style>
-    body {background-color: lightgray;}
-    h1   {color: black;font-family: courier;}
-    h2   {color: black;font-family: courier;}
-    h3   {color: black;font-family: courier;}
-    p    {color: black;font-family: courier;}
-    nav   {color: black;font-family: courier;}
-  </style>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylewc.css">
   <meta charset="UTF-8">
   <link rel="icon" type="image/vnd.icon" href="favicon.ico">
   <title>WEBCARS - Mclaren</title>
@@ -17,55 +10,45 @@
 <body>
 
 
-<section>
-  <article>
-    <header>
-      <h1><b><strong>WEBCARS</strong></b></h1>
-    </header>
-  </article>
-</section>
-
-<section>
-  <nav>
-    <a href="index.html">Inicio</a> |
-    <a href="marcas.html">Marcas</a> |
-    <a href="modelos.html">Modelos</a> |
-  </nav>
-</section>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>WEBCARS</h2>
+    </div>
+    <div class="topnav">
+      <a href="index.html">Inicio</a>
+      <a href="marcas.html">Marcas</a>
+      <a href="modelos.html">Modelos</a>
+    </div>
 
 
-<section>
-  <h1>Mclaren</h1>
-  <img src="img/mclaren.png" alt="mclaren" width="380" height="216">
-  <p>McLaren Automotive, abreviado simplemente como McLaren, es un fabricante británico de automóviles deportivos. Fue fundado en 1985 como desprendimiento de la escudería de automovilismo creada en 1963 por Bruce McLaren, con la que comparte tecnología.</p>
-  <!--
-  <p>Aqui una lista de Automobiles de la Marca Mazda</p>
-    <a href="rx8.html">RX8</a>
-  <br>
-  -->
-
-</section>
-
-<section>
-  <h3><p>Automobiles de la Marca Mclaren</p></h3>
-  <ul style="list-style-type:square;">
-    <li><a href="f1.html">F1</a></li>
-    <li><a href="mp4-12c.html">MP4-12C</a></li>
-
-  </ul>
-</section>
-
-<hr>
-<h2>Mclaren destacado del mes en</h2>
-<section>
-
-  <iframe src="f1.html" scrolling="no" style="border:none;" height="500" width="800" title="Mclaren destacado del mes"></iframe>
-</section>
+    <div class="card">
+      <h1>Mclaren</h1>
+      <img src="img/mclaren.png" alt="mclaren" width="380" height="216">
+      <p>McLaren Automotive, abreviado simplemente como McLaren, es un fabricante británico de automóviles deportivos. Fue fundado en 1985 como desprendimiento de la escudería de automovilismo creada en 1963 por Bruce McLaren, con la que comparte tecnología.</p>
 
 
+    </div>
 
-<br>
-<a href="index.html"><img src="img/homecar.jpg" alt="Volver al inicio" style="width:42px;height:42px;" title="Volver al Inicio"></a>
+    <div class="card">
+      <h3><p>Automobiles de la Marca Mclaren</p></h3>
+      <ul style="list-style-type:square;">
+        <li><a href="f1.html">F1</a></li>
+        <li><a href="mp4-12c.html">MP4-12C</a></li>
 
+      </ul>
+    </div>
+
+    <div class="card">
+       <hr>
+       <h2>Mclaren destacado del mes en</h2>
+       <iframe src="f1.html" scrolling="no" style="border:none;" height="500" width="800" title="Mclaren destacado del mes"></iframe>
+    </div>
+
+
+    <div class="card">
+      <br>
+      <a href="index.html"><img src="img/homecar.jpg" alt="Volver al inicio" style="width:42px;height:42px;" title="Volver al Inicio"></a>
+    </div>
 </body>
 </html>
